@@ -1,0 +1,44 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
+H1 {   font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal; text-align: center; color: #5C4033;} 
+
+H2{font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal; text-align: center; color: darkgreen;}
+
+H3{font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal; text-align: center; color: #5C4033;}
+
+  body{font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal; text-align: center; color: #ac7339;}
+
+body {background-image: url("pattern6.png")}
+
+ul { list-style-position: inside;
+  list-style-image: url("volleyball.pdf.png")}
+
+a:link, a:visited {color: #5C4033}
+
+a:link.lighter, a:visited.lighter {color: #ac7339;}
+
+H1 {
+  word-spacing: 30px;}
+
+H2::first-letter {
+  color: darkgreen;
+  font-size: 200%;}
+
+H3::first-letter {
+  color: #5C4033;
+  font-size: 200%;}
+
+li::first-letter {
+  color: #ac7339;
+  font-size: 200%;}
+
+.accordion-body { font-family: arial !important; }
+
+.accordion-button:not(.collapsed) {color: #5C4033;}
